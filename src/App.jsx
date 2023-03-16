@@ -9,7 +9,6 @@ const MoviesPage = lazy(() => import('./views/MoviesPage' /*webpackChunkName: "M
 const MovieDetailsPage = lazy(() => import('./views/MovieDetailsPage' /*webpackChunkName: "MovieDetailsPage"*/))
 const NotFoundView = lazy(() => import('./views/NotFoundView.jsx' /*webpackChunkName: "NotFoundView"*/))
 
-
 export default function App() {
   return (
     <Container>
